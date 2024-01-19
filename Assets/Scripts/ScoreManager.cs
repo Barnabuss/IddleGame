@@ -115,7 +115,7 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            print("PEU PO");
+            print("No !");
         }
 
         
@@ -142,7 +142,7 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            print("PEU PO2");
+            print("No 2!");
         }
 
         
@@ -168,7 +168,7 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            print("PEU PO3");
+            print("No 3!");
         }
 
 
@@ -193,7 +193,7 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            print("PEU POTube");
+            print("No 4!");
         }
 
         
@@ -223,7 +223,7 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            print("PEU POClick");
+            print("No 5!");
         }
 
 

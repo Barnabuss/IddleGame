@@ -9,6 +9,8 @@ public class PopUp : MonoBehaviour
     // Start is called before the first frame update
     public GameObject PopShop;
     public int PopNow;
+    public GameObject tuto;
+
     void Start()
     {
         PopNow = 1;
@@ -25,6 +27,7 @@ public class PopUp : MonoBehaviour
     {
         if (PopNow == 1)
         {
+            tuto.SetActive(false);
             PopShop.SetActive(true);
             PopNow = 2;
         }
